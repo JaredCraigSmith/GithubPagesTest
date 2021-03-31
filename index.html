@@ -1,1 +1,160 @@
-<button>test</button>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="recinv" content="width=device-width, initial-scale=1">
+<style>
+body  {
+  /*background-image: url("world_map.png");*/
+  /*background-color: #cccccc;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+img {
+  Width: 100%;
+  z-index: -1;
+}
+.dropbtn {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  position: fixed;
+  left: 0px;
+  top:25%;
+  background-color: #f3978f;
+  border-radius: 4px;
+}
+.dropbtn2 {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  position: fixed;
+  left:22%;
+  top:67%;
+  background-color: #a2e3f9;
+  border-radius: 4px;
+}
+.dropbtn3 {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  position: fixed;
+  left:50%;
+  top:26%;
+  background-color: #c0a5bf;
+  border-radius: 4px;
+}
+.dropbtn4 {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  position: fixed;
+  left:45%;
+  top:60%;
+  background-color: #fcd6a3;
+  border-radius: 4px;
+}
+.dropbtn5 {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  position: fixed;
+  left:75%;
+  top:15%;
+  background-color: #deea9d;
+  border-radius: 4px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+.dropdown-content a:hover {background-color: #ddd; border: 1px solid #ddd; border-radius: 4px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f1;}
+.dropdown:hover .dropbtn2 {background-color: #f1f1f1;}
+.dropdown:hover .dropbtn3 {background-color: #f1f1f1;}
+.dropdown:hover .dropbtn4 {background-color: #f1f1f1;}
+.dropdown:hover .dropbtn5 {background-color: #f1f1f1;}
+</style>
+</head>
+<script>alert("test")</script>
+<body>
+<p><b>Move the mouse over the Language dropdown in an Area to select the languages.</b></p>
+<!-- North America  -->
+<div class="dropdown" style="top:25%;left:0px;position:fixed;margin-top:8px;margin-left:8px;">
+  <button class="dropbtn">Language</button>
+  <div class="dropdown-content">
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Infinity-Training-Dashboard.aspx">English</a>
+    <a href=" https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Latin-America.aspx">Spanish</a>
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/French.aspx">French</a>
+  </div>
+</div>
+<!-- Latin America  -->
+<div class="dropdown" style="left:22%;top:67%;position:fixed;margin-top:8px;margin-left:8px;">
+  <button class="dropbtn2">Language</button>
+  <div class="dropdown-content">
+    <a href=" https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Latin-America.aspx">Spanish</a>
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Training-and-Learning-Dashboard---Korean(1).aspx">Portuguese</a>
+  </div>
+</div>
+<!-- Europe  -->
+<div class="dropdown" style="left:50%;top:26%;position:fixed;margin-top:8px;margin-left:8px;">
+  <button class="dropbtn3">Language</button>
+  <div class="dropdown-content">
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Russian-Training-Dashboard.aspx">Russian</a>
+    <a href=" https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Training-and-Learning-Dashboard---Korean(1).aspx">Portuguese</a>
+ 	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Training-and-Learning-Dashboard---Italian.aspx">Italian</a>
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/German.aspx">German</a>
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/French.aspx">French</a>
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Infinity-Training-Dashboard.aspx">English</a>
+  </div>
+</div>
+
+<!-- Africa  -->
+<div class="dropdown" style="left:45%;top:60%;position:fixed;margin-top:8px;margin-left:8px;">
+  <button class="dropbtn4">Language</button>
+  <div class="dropdown-content">
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/French.aspx">French</a>
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Training-and-Learning-Dashboard---Korean(1).aspx">Portuguese</a>
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Infinity-Training-Dashboard.aspx">English</a>
+  </div>
+</div>
+<!-- Asia  -->
+<div class="dropdown" style="left:75%;top:15%;position:fixed;margin-top:8px;margin-left:8px;">
+  <button class="dropbtn5">Language</button>
+  <div class="dropdown-content">
+	<a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Training-and-Learning-Dashboard---Korean.aspx">Korean</a>
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Japanese.aspx">Japanese</a>
+    <a href="https://office365lds.sharepoint.com/sites/RecordInnovation/SitePages/Infinity-Training-Dashboard---Asia.aspx">Chinese</a>
+  </div>
+</div>
+</body>
+</html>
